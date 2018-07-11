@@ -4,7 +4,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="home">
   <button ion-button (click)="OnQueryRequest()"> Search </button>
   <p *ngIf="result" > {{result}} </p>
   <img *ngIf="climatedata" [src]="climatedata" />

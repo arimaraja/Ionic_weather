@@ -1,0 +1,35 @@
+ionic g page settings.
+
+Add page component in app.moduels.ts
+
+import { SettingsPage } from './../pages/settings/settings';
+
+Add this SettingPage into 
+@NgModule 
+	Declaration
+
+@bootstrap 
+	entryCompoents.
+
+
+In Pages/tabs.
+   include SettingPages
+import { SettingsPage } from '../settings/settings';
+  tab3Root = SettingsPage;
+
+
+Edit About Page
+...............
+
+Themes are there in App->them
+User can override the variables defined in ionic
+https://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+This variable can be set in scss.
+$toolbar-md-background
+$tabs-md-background	
+
+
+
+
+
