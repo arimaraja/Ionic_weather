@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button (click)="OnQueryRequest()"> Search </button>
+  <p *ngIf="result" > {{result}} </p>
+  <img *ngIf="climatedata" [src]="climatedata" />
+</ion-content>

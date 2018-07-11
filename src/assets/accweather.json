@@ -1,0 +1,321 @@
+[
+  {
+    "Version": 1,
+    "Key": "206671",
+    "Type": "City",
+    "Rank": 11,
+    "LocalizedName": "Chennai",
+    "EnglishName": "Chennai",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "TN",
+      "LocalizedName": "Tamil Nadu",
+      "EnglishName": "Tamil Nadu",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 13.038,
+      "Longitude": 80.245,
+      "Elevation": {
+        "Metric": {
+          "Value": 17,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 55,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Chennai",
+        "EnglishName": "Chennai"
+      }
+    ],
+    "DataSets": [
+      "AirQuality",
+      "PremiumAirQuality"
+    ],
+    "Details": {
+      "Key": "206671",
+      "StationCode": "VOMM",
+      "StationGmtOffset": 5.5,
+      "BandMap": "IN",
+      "Climo": "VOMM",
+      "LocalRadar": "",
+      "MediaRegion": null,
+      "Metar": "VOMM",
+      "NXMetro": "",
+      "NXState": "",
+      "Population": 4646732,
+      "PrimaryWarningCountyCode": "",
+      "PrimaryWarningZoneCode": "",
+      "Satellite": "INDIA",
+      "Synoptic": "43279",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "",
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "AirQuality",
+          "Source": "Central Pollution Control Board",
+          "SourceId": 50
+        },
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+          "Source": "Earth Networks",
+          "SourceId": 57
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "PremiumAirQuality",
+          "Source": "Central Pollution Control Board",
+          "SourceId": 50
+        }
+      ],
+      "CanonicalPostalCode": "",
+      "CanonicalLocationKey": "206671"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "206674",
+    "Type": "City",
+    "Rank": 25,
+    "LocalizedName": "Madurai",
+    "EnglishName": "Madurai",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "TN",
+      "LocalizedName": "Tamil Nadu",
+      "EnglishName": "Tamil Nadu",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 9.926,
+      "Longitude": 78.127,
+      "Elevation": {
+        "Metric": {
+          "Value": 135,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 442,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Madurai",
+        "EnglishName": "Madurai"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Madurai South",
+        "EnglishName": "Madurai South"
+      }
+    ],
+    "DataSets": [
+      "AirQuality",
+      "PremiumAirQuality"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2801051",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Madurai",
+    "EnglishName": "Madurai",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "TN",
+      "LocalizedName": "Tamil Nadu",
+      "EnglishName": "Tamil Nadu",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 12.643,
+      "Longitude": 79.479,
+      "Elevation": {
+        "Metric": {
+          "Value": 122,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 400,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Tiruvannamalai",
+        "EnglishName": "Tiruvannamalai"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Cheyyar",
+        "EnglishName": "Cheyyar"
+      }
+    ],
+    "DataSets": []
+  },
+  {
+    "Version": 1,
+    "Key": "2801671",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Madurai",
+    "EnglishName": "Madurai",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "TN",
+      "LocalizedName": "Tamil Nadu",
+      "EnglishName": "Tamil Nadu",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 12.516,
+      "Longitude": 79.818,
+      "Elevation": {
+        "Metric": {
+          "Value": 38,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 124,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Kancheepuram",
+        "EnglishName": "Kancheepuram"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Maduranthakam",
+        "EnglishName": "Maduranthakam"
+      }
+    ],
+    "DataSets": [
+      "AirQuality",
+      "PremiumAirQuality"
+    ]
+  }
+]
