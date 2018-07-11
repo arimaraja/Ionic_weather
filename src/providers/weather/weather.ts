@@ -2,6 +2,26 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
 
+export interface ForcastInterestData {
+  Date?: string;
+  Temperature?:{
+          Minimum?:{
+            Value:number,
+          },
+          Maximum?:{  
+            Value:number,
+          }         			
+        };
+  Day?: {
+      Icon?:number;
+      IconPhrase?: string;
+    };
+  Night?: {
+      Icon?:number;
+      IconPhrase?: string;		
+    };
+};
+
 @Injectable()
 export class WeatherProvider {
   apikey = "zZkB2HPM8STIAf4m8cqqOFa68iXmU9lD";

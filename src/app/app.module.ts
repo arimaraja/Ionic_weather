@@ -4,6 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { MyApp } from './app.component';
+import { MomentPipe} from '../pipes/moment/moment';
 
 
 import { AboutPage } from '../pages/about/about';
@@ -23,7 +24,8 @@ import { WeatherProvider } from '../providers/weather/weather';
     ContactPage,
     HomePage,
     TabsPage,
-    SettingsPage
+    SettingsPage,
+    MomentPipe
   ],
   imports: [
     BrowserModule,

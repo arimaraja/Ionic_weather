@@ -1,7 +1,8 @@
+Adding New page
+----------------
 ionic g page settings.
 
 Add page component in app.moduels.ts
-
 import { SettingsPage } from './../pages/settings/settings';
 
 Add this SettingPage into 
@@ -10,7 +11,6 @@ Add this SettingPage into
 
 @bootstrap 
 	entryCompoents.
-
 
 In Pages/tabs.
    include SettingPages
@@ -28,8 +28,3 @@ https://ionicframework.com/docs/theming/overriding-ionic-variables/
 This variable can be set in scss.
 $toolbar-md-background
 $tabs-md-background	
-
-
-
-
-

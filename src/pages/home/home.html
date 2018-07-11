@@ -5,7 +5,23 @@
 </ion-header>
 
 <ion-content padding class="home">
-  <button ion-button (click)="OnQueryRequest()"> Search </button>
-  <p *ngIf="result" > {{result}} </p>
-  <img *ngIf="climatedata" [src]="climatedata" />
+  <ion-grid *ngIf="dailyforcast">
+    <ion-row>
+      <ion-col item-width="50" offset-25>
+        <h2 class="location">{{dailyforcast.Date | date }} </h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col><label>Day</label></ion-col>      
+      <ion-col item-width="50">
+        <img *ngIf="WImageData.dayimg" [src]="WImageData.dayimg" />         
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col><label>Night</label></ion-col>
+      <ion-col item-width="50">
+        <img *ngIf="WImageData.nightimg" [src]="WImageData.nightimg" />
+      </ion-col> 
+    </ion-row>
+  </ion-grid>
 </ion-content>

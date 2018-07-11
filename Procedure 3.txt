@@ -1,0 +1,7 @@
+Improving Accuweather
+---------------------
+Implement a interface from provider to get the Accuweather Day forcast.
+Installing ionic moment
+CleanedUp Html
+
+Todo: Add Style and Settings Page.
